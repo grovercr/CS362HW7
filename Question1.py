@@ -7,3 +7,8 @@ def Fizz(num):
     else:
         return None
 
+
+def Fuzz(num):
+    return 'Fuzz'
+
+    
