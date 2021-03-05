@@ -9,6 +9,8 @@ def Fizz(num):
 
 
 def Fuzz(num):
-    return 'Fuzz'
+    if(num % 5 == 0):
+        return 'Fuzz'
+    else:
+        return None
 
-    
