@@ -10,11 +10,11 @@ class FizzBuzz_Testing(unittest.TestCase):
         result = Question1.Fizz(2)
         self.assertNotEqual(result,'Fizz')
 
-    def test_Fuzz(self):
+    def test_Buzz(self):
         result = Question1.Fuzz(5)
-        self.assertEqual(result, 'Fuzz')
+        self.assertEqual(result, 'Buzz')
         result = Question1.Fuzz(3)
-        self.assertNotEqual(result,'Fuzz')
+        self.assertNotEqual(result,'Buzz')
 
 
 
