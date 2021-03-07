@@ -1,7 +1,10 @@
     
 def leap_year(num):
+    if(num % 100 == 0):
+        return 'Not a Leap Year'
     if(num % 4 == 0):
         return 'Leap Year'
+
 
     else:
         return 'Not a Leap Year'
